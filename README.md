@@ -1,15 +1,15 @@
 # TidePodLab
 ## TidePods (Fiona Cai, Selina Zou, Eddie Zhu)
-### Lab #01
+### Lab #01 -- What Does the Data Say?
 
 ## Hypothesis
 The best case scenario is O(n), and the worst case is O(n^2).
 
 ## Background
-(assessment of Big O's runtime for best case, average case, and worst case)
+The QuickSort sorting algorithm uses the partition algorithm which sorts an array based on the pivot position. The pivot position is in it's final resting position and the elements to its left are smaller while the elements to the right are larger. QuickSort divides and concurs by recursively calling itself on each half of the partitioned array.
 
 ## Experiment Methodology
-A random array will be generated based on size, and the sorting algorithm will be timed while sorting the array. 
+A random array will be generated based on size, and the sorting algorithm will be timed while sorting the array.
 
 ## Results 
 (time measurements and analysis)
