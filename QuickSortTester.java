@@ -19,7 +19,7 @@ public class QuickSortTester{
 //--------------MAIN METHOD--------------------//
   public static void main(String[] args) {
     double totalTime = 0;
-    for(int i = 1000; i <= 10000; i+=100 ){
+    for(int i = 1000; i <= 10000; i+=50 ){
       for(int n = 0; n < 100;n++){
         int[] testArr = randomArr(i);
         double beginTime = System.nanoTime();
