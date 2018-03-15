@@ -1,7 +1,7 @@
 /*Summary Of QuickSort Testing Algo:
-*
-*
-*
+* For each randomly generated array of size 1000 to 10000 in increments of 50,
+* we applied quick sort to the array for 100 randomly generated arrays of each size.
+* Then we averaged the time in nanoseconds over the 100 trials.
 */
 import java.util.Random;
 
