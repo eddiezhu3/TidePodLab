@@ -10,17 +10,11 @@ The QuickSort sorting algorithm uses the partition algorithm which sorts an arra
 
 Our QuickSort algorithm used the rightmost element as the pivot.
 
-<<<<<<< HEAD
 We predict that if the pivot chosen each time is the smallest or largest element, this would be the worst case.
 Runtime O(n^2) because for each call, you split the array into 0 and n-1 sizes. The best case would be if the pivot
 chosen each time is the value that divides partitions the array into two equal pieces. The associated runtime
 would be O(nlogn) as for each call, you are cutting the array into halves. Quicksort will usually have a runtime
 of O(nlogn) because on average, a random pivot will divide the subsequent array into half, thus resulting in log n divides.
-=======
-## Results 
-![](chart.png)
-![](QuickSortTime.png)
->>>>>>> 35ac218b4b8a78e1dfd081e0bc88c2359871decb
 
 ## Experiment Methodology
 A random array was generated based on size, and the sorting algorithm was timed while sorting the array. For each array of size 1000 to 10000, in increments of 50, we ran Quick sort for 100 trials and outputted the average runtime in nano seconds.
