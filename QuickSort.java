@@ -80,8 +80,8 @@ public class QuickSort
   //quicksort helper method
   public static void qsortH(int[] arr, int left, int right){
     if (left < right){
-      int randPvt = left + new Random().nextInt(right-left+1); //generate random pivot point
-      int pvtPos = partition(arr, left, right, randPvt); // partition array using the random pivot
+      //int randPvt = left + new Random().nextInt(right-left+1); //generate random pivot point
+      int pvtPos = partition(arr, left, right, right); // partition array using the random pivot
       qsortH(arr, left, pvtPos-1); //recursively partition elements to the left of the resting place of the random pivot
       qsortH(arr, pvtPos+1, right); //recursively partition elemnts to the right of the resting place of the random pivot
     }
