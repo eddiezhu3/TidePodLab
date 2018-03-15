@@ -12,7 +12,7 @@ The QuickSort sorting algorithm uses the partition algorithm which sorts an arra
 A random array will be generated based on size, and the sorting algorithm will be timed while sorting the array. For each array of size 1000 to 10000, in increments of 50, we ran Quick sort for 100 trials and outputted the average runtime in nano seconds. 
 
 ## Results 
-![](avgtime.png)
+![](chart.png)
 ![](QuickSortTime.png)
 
 ### To-Do
