@@ -22,4 +22,4 @@ A random array was generated based on size, and the sorting algorithm was timed 
 
 Our data from our trials is also in the repo under TidePods Lab#01 QuickSort - Right Pivot.csv
 ## Conclusions
-The graph depicts an nlogn relationship, and looks almost linear. The efficiency comes from the fact that the sort divides and conquers the array and recursively sorts each section. Slight dips and rises in times might stem from the different possible positions that the elements are in. Arrays that start off being "more sorted" have a faster runtime than those who aren't.
+The graph depicts an nlogn relationship, and looks almost linear. The efficiency comes from the fact that the sort divides and conquers the array and recursively sorts each section. Slight dips and rises in times might stem from the different possible positions that the elements are in. This can't be controlled due to the random values and positions of those values given when the array is created. Despite these differences, on average, the time is still O(nlogn). 
