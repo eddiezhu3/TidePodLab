@@ -17,6 +17,8 @@ A random array will be generated based on size, and the sorting algorithm will b
 *(time measurements and analysis)*
 
 ## Conclusions
+The graph depicts an nlogn relationship, and looks almost linear. The efficiency comes from the fact that the sort divides and conquers the array and recursively sorts each section. Slight dips and rises in times might stem from the different possible positions that the elements are in. Arrays that start off being "more sorted" have a faster runtime than those who aren't. 
+
 *(analysis of raw data and concise explanations)*
 *(mention any results that are unexplanable)*
 
